@@ -1,0 +1,40 @@
+{
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      { "before": ["i", "i"], "after": ["<Esc>"] }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      { "before": ["<leader>", "d"], "after": ["d", "d"] },
+      { "before": ["z"], "after": ["<C-w>"] },
+
+      { "before": ["t"], "after": ["<leader>", "<leader>", "s"] },
+
+      { "before": [",", "n"], "commands": [":tabnext"] },
+      { "before": [",", "t"], "commands": [":tabprevious"] },
+
+      { "before": ["<leader>", "w"], "commands": [":w"] },
+      { "before": ["<leader>", "q"], "commands": [":q"] },
+      { "before": ["<S-j>"], "after": ["<C-f>"] },
+      { "before": ["<S-k>"], "after": ["<C-b>"] },
+
+      { "before": ["<leader>", "h"], "after": ["<C-w>", "h"] },
+      { "before": ["<leader>", "l"], "after": ["<C-w>", "l"] },
+      { "before": ["<leader>", "j"], "after": ["<C-w>", "j"] },
+      { "before": ["<leader>", "k"], "after": ["<C-w>", "k"] },
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+    },
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "workbench.colorTheme": "One Dark Pro Flat",
+    "editor.lineNumbers": "relative",
+    "editor.fontSize": 13,
+    "liveServer.settings.donotShowInfoMsg": true
+}
