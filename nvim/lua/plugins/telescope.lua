@@ -66,7 +66,7 @@ return	{
       color_devicons = true,
       file_ignore_patterns = { "node_modules", ".git/" },
       path_display = { "truncate" }, --truncate
-		--	mappings = {
+			--	mappings = {
 			--	i = {
 			--		["<C-j>"] = require("telescope.actions").move_selection_next,
 			--		["<C-k>"] = require("telescope.actions").move_selection_previous,
@@ -83,13 +83,13 @@ return	{
 		{ ";b", function() require("telescope.builtin").buffers() end, desc = "Search Buffers" },
  		-- File browser mejorado
     { "<leader>no", function()
-        require("telescope").extensions.file_browser.file_browser({
-          path = "%:h:p",
-          select_buffer = true,
-          grouped = true,
-          initial_mode = "normal",
-        })
-      end,
+      require("telescope").extensions.file_browser.file_browser({
+        path = "%:h:p",
+        select_buffer = true,
+        grouped = true,
+        initial_mode = "normal",
+      })
+    end,
       desc = "File Browser"
     },
 		-- Buscar en configuración de nvim
