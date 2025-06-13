@@ -29,10 +29,10 @@ o.undodir = vim.fn.stdpath('cache') .. '/nvim/undo//'
 
 -- Indentation
 o.expandtab = false
-o.tabstop = 4
-o.shiftwidth = 4
+o.tabstop = 2
+o.shiftwidth = 2
 o.smartindent = true
-o.softtabstop = 4
+o.softtabstop = 2
 o.breakindent = true
 o.copyindent = true
 o.preserveindent = true
