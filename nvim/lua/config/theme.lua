@@ -37,58 +37,58 @@ local function f(font, ...)
 	end
 end
 ----------------------------------------------------------------
-local PanelActivo			= {'none','#000000'}
-local PanelInactivo		= PanelActivo
-local CursorLineal		= {'none','none'}
-local CursorNumeral		= 'orange'
+local PanelActivo = {'none','#000000'}
+local PanelInactivo = PanelActivo
+local CursorLineal = {'none','none'}
+local CursorNumeral = 'orange'
 local seleccionVisual = {'#9C9C9C', '#333334'}
-local BarraDeEstado					= {'#FFA41A','#000000','i'}
-local BarraPestanas					= {'#4E3C0D','i'}
-local BarraPestanasSel			= {'orange','i'}
+local BarraDeEstado = {'#FFA41A','#000000','i'}
+local BarraPestanas = {'#4E3C0D','i'}
+local BarraPestanasSel = {'orange','i'}
 local BarraPestanasNumerica = 'none'
-local SeparadorDePanel	= {'#0E0E0E', 'none'}
-local ColumnaNumerica		= '#3F3F3F'
-local MenuBase				= {'#9D9C9C', '#2E2E2E'}
-local MenuSel					= {'#FFFFFF', '#282828'}
-local MenuColumna			= {'blue', 'blue'}
-local MenuColumnaSel	= {'pink', 'blue'}
+local SeparadorDePanel = {'#0E0E0E', 'none'}
+local ColumnaNumerica = '#3F3F3F'
+local MenuBase = {'#9D9C9C', '#2E2E2E'}
+local MenuSel = {'#FFFFFF', '#282828'}
+local MenuColumna = {'blue', 'blue'}
+local MenuColumnaSel = {'pink', 'blue'}
 --
-f(PanelActivo			, 'Normal')
-f(PanelInactivo		, 'NormalNC')
-f(CursorLineal		, 'CursorLine')
-f(CursorNumeral		, 'CursorLineNr')
-f(seleccionVisual	, 'Visual')
+f(PanelActivo, 'Normal')
+f(PanelInactivo, 'NormalNC')
+f(CursorLineal, 'CursorLine')
+f(CursorNumeral, 'CursorLineNr')
+f(seleccionVisual, 'Visual')
 f(BarraPestanasNumerica	, 'Title')
-f(BarraPestanasSel			, 'TabLineSel')
-f(BarraPestanas					, 'TabLine')
-f(BarraDeEstado					, 'StatusLine')
-f(SeparadorDePanel	, 'WinSeparator')
-f(ColumnaNumerica		, 'LineNr')
-f(MenuBase				, 'Pmenu')
-f(MenuSel					, 'PmenuSel')
-f(MenuColumna			, 'PmenuSbar')
-f(MenuColumnaSel	, 'PmenuThumb')
+f(BarraPestanasSel, 'TabLineSel')
+f(BarraPestanas, 'TabLine')
+f(BarraDeEstado, 'StatusLine')
+f(SeparadorDePanel, 'WinSeparator')
+f(ColumnaNumerica, 'LineNr')
+f(MenuBase, 'Pmenu')
+f(MenuSel, 'PmenuSel')
+f(MenuColumna, 'PmenuSbar')
+f(MenuColumnaSel, 'PmenuThumb')
 ----------------------------------------------------------------
 -- esto es un comentario 
-local comentarios		= {'#3F3F3F','i'}
+local comentarios	= {'#3F3F3F','i'}
 local cadenas	= '#4FF672'
 local numeros	= '#FFC300'
 local boleanos = '#FF6700'
 --local nulos		= {'#FF0000', 'i','u'}
 --local constructores		= '#FF8300'
-local variables		= {'#EAEAEA'}
+local variables	= {'#EAEAEA'}
 
 local palabraReservada = '#FF4B47'
 
-local metodos		= '#9D76BF'
-local funcion		= metodos
+local metodos	= '#9D76BF'
+local funcion	= metodos
 local condicional = '#3148F6'
 local ciclos = '#3148F6'
 
-local operador		= '#D77349'
-local tiposDeClases		= {'#E09B39','i'}
-local signoPuntuacion		= metodos
-local signoParentesis		= metodos
+local operador = '#D77349'
+local tiposDeClases	= {'#E09B39','i'}
+local signoPuntuacion	= metodos
+local signoParentesis	= metodos
 local puntuacionEspecial = '#DCDA56'
 local claseDeclaracion = '#5C8ABD'
 
